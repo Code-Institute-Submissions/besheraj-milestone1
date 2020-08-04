@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Varta:wght@300;400;500;515;600;700&display=swap');
+
+
+/* --------------------------  heading */
+.logo {
+    letter-spacing: 6px;
+    font-weight: 700;
+    font-size: 300%;
+    font-family: Varta,'Times New Roman', Times, serif;
+    float: left;
+}
+.logo h1,a {
+    padding-top: 5px;
+    color: blueviolet;
+    padding-left: 10px;
+}
+.logo a:hover {
+    color: darkmagenta;
+    text-decoration: none;
+}
+.menu ul {
+    float: right;
+    padding-top: 5px;
+}
+.menu a {
+    color: blueviolet;
+}
+header {
+    background-color: #fafafa;
+}
+
+/* --------------------------  hero-image */
+.container-heroimage {
+    height: 100vh;
+
+    background: url('../images/heroimage.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.heroimage-box {
+    text-align: center;
+    background-color: transparent;
+}
+
+.hero-heading {
+    color: white;
+    font-weight: bold;
+    font-size: 300%;
+    margin-bottom: 30px;
+    color: white;
+    font-family:Lato,serif ;
+}
+.hero-text {
+    color: #a7a7a7;
+    margin: 15px 0;
+    font-family:Lato,serif 
+}
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
