@@ -58,7 +58,7 @@ header {
 */
 .container-heroimage {
     position: relative;
-    background: #5C97FF;
+    background:#fafafa;
     overflow: hidden;
     height: 90vh;
 
@@ -72,7 +72,7 @@ header {
     width: 100%;
     height: 90vh;
     z-index: 1;
-    opacity: 0.5;
+    opacity: 0.7;
     background-image: url('../images/heroimage.jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
@@ -89,23 +89,19 @@ header {
     top: 100px;
 }
 
-.hero-heading  {
+
+.heroimage-box h1 {
+    font-weight: 700;
     color: rgb(28, 3, 139);
     margin-bottom: 30px;;
     font-family: Roboto,serif ;
     margin-bottom: 60px;
-    letter-spacing: 2px;
+    letter-spacing: 6px;
 }
-.heroimage-box h1 {
-    font-weight: 900;
-    font-size: 50px;
-}
-.hero-text {
+.heroimage-box p {
     color: rgb(28, 3, 139);
     margin: 18px 0;
     font-family: Roboto,serif ;
-    font-size: 16px;
-
 
 }
 .btn--cta {
@@ -117,25 +113,49 @@ header {
 /* --------------------------  Table Section */
 .classes-container{
     background-color: #fafafa;
-    padding-bottom: 50px;
 }
 
 .empty {
     height: 30px;
 }
 .row-style {
-    background-color: #f9f9f9;
+    background-color: #dbd5d5;
 }
 .table-title {
     background-color: #b8b3b3;
     color:rgb(28, 3, 139);
     font-family: Roboto,serif ;
-    ;
 
 }
 .heading-classes {
-    padding: 60px 30px 30px 30px;
+    padding: 90px 30px 30px 30px;
     text-align: center;
     font-family: Roboto,serif ;
-    color:rgb(28, 3, 139)
+    color:rgb(28, 3, 139);
+    letter-spacing: 2px;
+}
+
+/* --------------------------  Review Section */
+
+.review-heading {
+    text-align: center;
+}
+.review-heading h2 {
+    padding: 45px 0; 
+    text-align: center;
+    font-family: Roboto,serif ;
+    color:rgb(28, 3, 139);
+    letter-spacing: 2px;
+}
+.review-body {
+    text-align: left;
+}
+.table-review {
+    background-color: #fafafa;
+}
+
+/* --------------------------  Find Us Section */
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
 }

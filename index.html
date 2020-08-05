@@ -23,7 +23,7 @@
                       </li>
 
                       <li class="nav-item active mr-2">
-                        <a href="#" class="nav-link"><span>Classes</span> </a>
+                        <a href="#class" class="nav-link"><span>Classes</span> </a>
                     </li>
 
                     <li class="nav-item active mr-2">
@@ -46,8 +46,8 @@
                 <div class="raw">
                     <div class="col-12">
                         <div class="heroimage-box">
-                            <h1 class="hero-heading">Welcome To My Fitness</h1>
-                            <p class="hero-text">Get Ready to push your limits and have some
+                            <h1>Welcome To My Fitness</h1>
+                            <p>Get Ready to push your limits and have some
                                 fun along the way!</p>
                             <button class="btn btn-lg btn--cta" data-target="index.html">Join Us Now</button>
                         </div>
@@ -61,13 +61,13 @@
     <!-- Hero Image Ends -->
 
 
-    <section>
-        <div class="container-fluid classes-container">
-            <div class="heading-classes">
-                <h1>Weekly Group Exercise Class Schedule</h1>
+    <section class="container-fluid table-review">
+        <div class="classes-container">
+            <div class="col-12 heading-classes">
+                <h2>Weekly Group Exercise Class Schedule <a name="class"></a></h2>
             </div>
 
-            <div class="table-responsive-xl">
+            <div class="table-responsive-xl px-lg-5">
                 <table class="table">
                     <caption>Classes</caption>
                     <thead>
@@ -137,12 +137,124 @@
                   </table>
               </div>
         </div>
+        <div class="px-lg-5">
+        <div class="raw">
+            <div class="col-12">
+                <div class="review-heading">
+                <h2>What are people saying about us</h2>
+            </div>
+            </div>
+        </div>
+        
+        <div class="row">
+             <div class="col-12 col-md-6 ">
+                 <div class="media">
+                 <div>
+                     <img src="assets/images/happyuser1.jpg" class="rounded-circle mr-3" height="100" width="100">
+                 </div>
+                
+                <div class="media-body">
+                 <div class="review-body">
+                    <p>A great place for workout, lovely
+                        trainers, hygiene and responsible.
+                        Love it!</p>
+                    <p>- Happy User</p>
+                 </div>
+                </div>
+                </div>
+             </div>
+
+
+
+             <div class="col-12 col-md-6 ">
+                <div class="media">
+                <div>
+                    <img src="assets/images/happyuser2.jpg" class="rounded-circle mr-3" height="100" width="100">
+                </div>
+               
+               <div class="media-body">
+                <div class="review-body">
+                   <p>Have been training here for some time and I do love the structure, new equipment, recommended !</p>
+                   <p>- Happy User</p>
+                </div>
+               </div>
+               </div>
+            </div>
+        </div>
+        </div>
 
     </section>
 
-    <section></section>
-    
-    <section></section>
+<!-- 
+    <section class= "container findus">
+        <div class="raw">
+            <div class="col-12">
+                <h2>Find Us</h2>
+            </div>
+        </div>
+            <div class="raw">
+                <div class="col-12 col-md-6">
+                    <div class="contact">
+                        <h3>Contact Us</h2>
+                        <p>Our Address:   Nedergardsvagen 9 </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="map-header">
+                    <h3>Map:</h2>
+                    </div>
+                    <div id="map"></div>           
+            </div>
+        </div>
+        
+    </section>
+-->
+    <section class="px-lg-5">
+        <div class="raw">
+            <div class="col-12">
+                <div class="review-heading">
+                <h2>What are people saying about us</h2>
+            </div>
+            </div>
+        </div>
+        
+        <div class="row">
+             <div class="col-12 col-md-6 ">
+                                    <div class="contact">
+                        <h3>Contact Us</h2>
+                        <p>Our Address:   Nedergardsvagen 9 </p>
+                    </div>
 
+             </div>
+
+
+             <div class="col-12 col-md-6 ">
+                <div id="map"></div> 
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          var Tumba = {lat: 59.198551, lng: 17.843898};
+          // The map, centered at Uluru
+          var map = new google.maps.Map(
+              document.getElementById('map'), {zoom: 15, center: Tumba });
+          // The marker, positioned at Uluru
+          var marker = new google.maps.Marker({position: Tumba , map: map});
+        }
+            </script>
+            <!--Load the API from the specified URL
+            * The async attribute allows the browser to render the page while the API loads
+            * The key parameter will contain your own API key (which is not needed for this tutorial)
+            * The callback parameter executes the initMap() function
+            -->
+            <script defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD80RgKsREY-Oq18TyAeB9RpCVquvoBgl8&callback=initMap">
+            </script>
 </body>
 </html>
