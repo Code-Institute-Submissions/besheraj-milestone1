@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,423;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 /* --------------------------  heading */
 .logo {
     float: left;
     font-family: Roboto Mono,Times, serif;
     letter-spacing: 4px;
     font-size: 44px;
+    text-transform: uppercase;
+
 
 }
 .logo h1,a {
@@ -111,6 +114,11 @@ header {
 
 }
 /* --------------------------  Table Section */
+.table-review {
+    background-color: #fafafa;
+
+}
+
 .classes-container{
     background-color: #fafafa;
 }
@@ -140,8 +148,8 @@ header {
 .review-heading {
     text-align: center;
 }
-.review-heading h2 {
-    padding: 45px 0; 
+.heading  {
+    padding: 30px 0; 
     text-align: center;
     font-family: Roboto,serif ;
     color:rgb(28, 3, 139);
@@ -150,12 +158,97 @@ header {
 .review-body {
     text-align: left;
 }
-.table-review {
-    background-color: #fafafa;
+.review {
+    padding-bottom: 50px;
 }
 
 /* --------------------------  Find Us Section */
+.findus {
+    background-color: #f1f1f1;
+    padding: 50px;
+}
 #map {
-    height: 400px;  /* The height is 400 pixels */
+    height: 300px;  /* The height is 400 pixels */
     width: 100%;  /* The width is the width of the web page */
+}
+.contact-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+.contact-info-item .key,
+.contact-info-item .value {
+    padding-right: 8px;
+    display: inline-block; 
+}
+.contact-info-item .key p,
+.contact-info-item .value p {
+    margin: 0;
+}
+.contact-info-item .key {
+    width:30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top 
+}
+.contact-info-item .key p {
+    font-weight: 500;
+}
+.contact-info-item .value {
+    position: relative;
+    width: 60%;
+}
+.contact-heading {
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+/* --------------------------  Contact Form Section */
+
+.contact-form {
+    padding: 50px;
+    text-align: center;
+    background-color: #fafafa;
+
+}
+.contact-form h4 {
+    padding: 15px;
+}
+.contact-form botton {
+    margin: 15px;
+}
+/* --------------------------  Contact Form Section */
+footer {
+    background-color: #f1f1f1;
+}
+hr {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+.social {
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+.social li {
+    padding: 30px;
+
+}
+.social li a i  {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35 ease-in-out;
+    -moz-transition: all 0.35 ease-in-out;
+    -webkit-transition: all 0.35 ease-in-out;
+    -o-transition: all 0.35 ease-in-out;
 }
