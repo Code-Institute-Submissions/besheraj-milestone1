@@ -18,7 +18,7 @@
 </head>
 <body>
     <!-- header starts -->
-    <header>
+    <header class="container-fluid">
         <div class="no-gutters">
             <div class="row">
               <div class="col-md-4 logo"><h1><a href="index.html">My Fitness</a></h1>
@@ -31,11 +31,11 @@
                       </li>
 
                       <li class="nav-item active mr-2">
-                        <a href="#class" class="nav-link"><span>Classes</span> </a>
+                        <a href="#classes" class="nav-link"><span>Classes</span> </a>
                     </li>
 
                     <li class="nav-item active mr-2">
-                        <a href="#" class="nav-link"><span>Find Us</span> </a>
+                        <a href="#Findus" class="nav-link"><span>Find Us</span> </a>
                     </li>
 
                   </ul>
@@ -57,12 +57,11 @@
                             <h1>Welcome To My Fitness</h1>
                             <p>Get Ready to push your limits and have some
                                 fun along the way!</p>
-                            <button class="btn btn-lg btn--cta" data-target="index.html">Join Us Now</button>
+                            <button class="btn btn-lg btn--cta" onclick="location.href='#Findus'">Join Us Now</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
     </section>
@@ -72,7 +71,7 @@
     <section class="container-fluid table-review">
         <div class="classes-container">
             <div class="col-12 heading">
-                <h2>Weekly Group Exercise Class Schedule <a name="class"></a></h2>
+                <h2> <a id="classes"></a>Weekly Group Exercise Class Schedule</h2>
             </div>
 
             <div class="table-responsive-xl px-lg-5">
@@ -158,7 +157,7 @@
              <div class="col-12 col-md-6 ">
                  <div class="media">
                  <div>
-                     <img src="assets/images/happyuser1.jpg" class="rounded-circle mr-3" height="100" width="100">
+                     <img src="assets/images/happyuser1.jpg" alt="happyuser1" class="rounded-circle mr-3" height="100" width="100">
                  </div>
                 
                 <div class="media-body">
@@ -177,7 +176,7 @@
              <div class="col-12 col-md-6 ">
                 <div class="media">
                 <div>
-                    <img src="assets/images/happyuser2.jpg" class="rounded-circle mr-3" height="100" width="100">
+                    <img src="assets/images/happyuser2.jpg" alt="happyuser2" class="rounded-circle mr-3" height="100" width="100">
                 </div>
                
                <div class="media-body">
@@ -219,16 +218,16 @@
 -->
     <section class="px-lg-5 findus">
         <div class="raw">
-            <div class="col-12">
+            <div class="col-12 ">
                 <div class="heading">
-                <h2>Find Us</h2>
+                <h2><a id="Findus">Find Us</a></h2>
             </div>
             </div>
         </div>
         
         <div class="row">
-             <div class="col-12 col-md-6 ">
-                 <h3 class="contact-heading Uppercase">Contact Us</h3>
+             <div class="col-12 col-md-6 px-lg-5">
+                 <h4 class="contact-heading Uppercase">Contact Us</h4>
                 <div class="contact-info-item">
                     <div class="key">
                     <p>Our address:</p>
@@ -260,7 +259,7 @@
              </div>
 
 
-             <div class="col-12 col-md-6 ">
+             <div class="col-12 col-md-6 px-lg-5">
                 <div id="map"></div> 
             </div>
         </div>
@@ -300,7 +299,7 @@
                   required
                 />
                 <input
-                type="numbers"
+                type="number"
                 name="phonenumber"
                 id="phonenumber"
                 class="form-control"
@@ -316,20 +315,18 @@
                   required
                 >
                 </textarea>
-                <div class="form-new text-center">
-                  <div class="col">
-                    <botton type="submit" class="btn btn-secondary"
+
+                    <botton type="submit" class="btn btn-secondary" onClick="window.location.reload();"
                       >Send Now!
                     </botton>
-                  </div>
-                </div>
+
               </form>
             </div>
           </div>
         </div>
       </section>
 
-      <footer>
+      <footer class="container-fluid">
         <div class="raw">
             <div class="col-12 social">
                 <hr>
