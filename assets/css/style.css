@@ -1,28 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,423;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 html {
     margin: 0;
     padding: 0;
 }
-/* --------------------------  heading */
+
+/* ---------- General Colors and Fonts -----*/
+
+body ,th, tr, .btn-style{
+    font-family: Open Sans,Times, serif;
+    color: #61988E;
+}
+.btn-style {
+    font-family: Open Sans,Times, serif;
+    color: #493843;
+}
+
+/* --------------------------  header */
 
 
 .logo {
     float: left;
-    font-family: Roboto Mono,Times, serif;
+    font-family: Monoton,Times, serif;
     letter-spacing: 4px;
     font-size: 40px;
     text-transform: uppercase;
 
 
 }
-.logo h1,a {
-    color: rgb(16, 2, 80);
-    font-weight: 1100;
+.logo h1 a {
+    font-weight: 400;
+    color: #61988E;
+
 }
 
 .logo a:hover {
-    color: rgb(82, 52, 219);
+    color: #E9D758;
     text-decoration: none;
 }
 .menu ul {
@@ -30,19 +43,18 @@ html {
 
 }
 .menu a {
-    color: rgb(16, 2, 80);
+    color: #61988E;
 }
 .menu a:hover {
-    color: rgb(82, 52, 219);
+    color: #E9D758;
 }
 span {
     font-size: 20px;
     font-weight: 600;
-    font-family: Roboto Mono,'Times New Roman', Times, serif;
-
 }
 header {
     background-color: #fafafa;
+    
 }
 
 /* --------------------------  hero-image */
@@ -95,26 +107,29 @@ header {
 
 
 .heroimage-box h1 {
-    font-weight: 700;
-    color: rgb(28, 3, 139);
+    font-weight: 900;
     margin-bottom: 30px;;
-    font-family: Roboto,serif ;
     margin-bottom: 60px;
     letter-spacing: 6px;
-}
-.heroimage-box p {
-    color: rgb(28, 3, 139);
-    margin: 18px 0;
-    font-family: Roboto,serif ;
+    color: #493843;
+    
 
 }
-.btn--cta {
+.heroimage-box p {
+    margin: 18px 0;
+    color: #493843;
+    font-weight: 600;
+
+}
+.btn-join {
     font-weight: bold;
     border-radius: 23px;
     width: 160px;
     background-color: #fafafa;
 }
+
 /* --------------------------  Table Section */
+
 .table-review {
     background-color: #fafafa;
 
@@ -132,15 +147,11 @@ header {
 }
 .table-title {
     background-color: #b8b3b3;
-    color:rgb(28, 3, 139);
-    font-family: Roboto,serif ;
 
 }
 .heading-classes {
     padding: 90px 30px 30px 30px;
     text-align: center;
-    font-family: Roboto,serif ;
-    color:rgb(28, 3, 139);
     letter-spacing: 2px;
 }
 
@@ -152,9 +163,9 @@ header {
 .heading  {
     padding: 30px 0; 
     text-align: center;
-    font-family: Roboto,serif ;
-    color:rgb(28, 3, 139);
     letter-spacing: 2px;
+    font-weight: 700;
+
 }
 .review-body {
     text-align: left;
@@ -164,6 +175,7 @@ header {
 }
 
 /* --------------------------  Find Us Section */
+
 .findus {
     background-color: #f1f1f1;
     padding: 50px;
@@ -221,7 +233,11 @@ header {
 .form-control {
     margin-bottom: 10px;
 }
+.btn-secondary {
+    background-color: #fafafa;
+}
 /* --------------------------  Footer Section */
+
 footer {
     background-color: #f1f1f1;
 }
@@ -241,17 +257,17 @@ hr {
     padding: 30px;
 
 }
+.social ul li {
+    margin: 0 30px;
+}
 .social li a i  {
-    width: 32px;
-    height: 32px;
+
     padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
+    font-size: 30px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background-color: #8f8f8f;
-    transition: all 0.35 ease-in-out;
+    color: #61988E;
+]    -transition: all 0.35 ease-in-out;
     -moz-transition: all 0.35 ease-in-out;
     -webkit-transition: all 0.35 ease-in-out;
     -o-transition: all 0.35 ease-in-out;
