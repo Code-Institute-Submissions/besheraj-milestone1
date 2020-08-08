@@ -22,9 +22,10 @@ body ,th, tr, .btn-style{
 .logo {
     float: left;
     font-family: Monoton,Times, serif;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     font-size: 40px;
     text-transform: uppercase;
+    padding-left: 40px;
 
 
 }
@@ -38,23 +39,33 @@ body ,th, tr, .btn-style{
     color: #E9D758;
     text-decoration: none;
 }
-.menu ul {
-    float: right;
+
+.menu {
+    padding: 0;
+    text-align: left;
+}
+.menu nav {
+    padding: 0;
+}
+.nav-bg-color {
+    background: #61988E
+}
+
+header span {
+    font-size: 20px;
+    color: #61988E;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
 
 }
-.menu a {
-    color: #61988E;
-}
-.menu a:hover {
+header span:hover {
     color: #E9D758;
-}
-span {
-    font-size: 20px;
-    font-weight: 600;
 }
 header {
     background-color: #fafafa;
-    
+    position: fixed;
+    z-index: 3;
 }
 
 /* --------------------------  hero-image */
@@ -89,7 +100,7 @@ header {
     text-align: center;
     z-index: 2;
     position: relative ;
-    top: 100px;
+    top: 200px;
 }
 
 
@@ -126,9 +137,7 @@ header {
     background-color: #fafafa;
 }
 
-.empty-raw {
-    height: 30px;
-}
+
 .row-style {
     background-color: #dbd5d5;
 }

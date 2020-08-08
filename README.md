@@ -25,8 +25,7 @@ My Fitness is website designed to brand "my fitness gym" and attract new clients
 - provide the users with responsive google map tool to navigate easily the surrounding area of the gym.
 
 ## **Wireframes**:
-the website was designed by Balsamiq tool, click here to check it out.
-
+the website was designed by Balsamiq tool, [link to wireframes!](wireframes/wireframes.pdf)
 # Features:
 ## Existing Features:
 - Navigation menu bar that linked to different sections in the  website
