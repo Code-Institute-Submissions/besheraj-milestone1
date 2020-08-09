@@ -23,9 +23,9 @@ body ,th, tr, .btn-style{
     float: left;
     font-family: Monoton,Times, serif;
     letter-spacing: 5px;
-    font-size: 40px;
+    font-size: 38px;
     text-transform: uppercase;
-    padding-left: 40px;
+    padding-left: 20px;
 
 
 }
@@ -42,7 +42,6 @@ body ,th, tr, .btn-style{
 
 .menu {
     padding: 0;
-    text-align: left;
 }
 .menu nav {
     padding: 0;
@@ -52,9 +51,9 @@ body ,th, tr, .btn-style{
 }
 
 header span {
-    font-size: 20px;
+    font-size: 17px;
     color: #61988E;
-    font-weight: 700;
+    font-weight: 600;
     padding: 0;
     margin: 0;
 
