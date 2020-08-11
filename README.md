@@ -69,6 +69,7 @@ Google maps.
  - Click on classes link to the weekly classes timetable.
  - Click on find us link to the Find Us section.
  - Click on the button in the mobile version then will collapse and show the menu bar links.
+ - The header and menu bar is sticky, will stay on the top while surfing the website.
  ## hero image
  - Click on join us link to the send us a message form.
  ## logo
