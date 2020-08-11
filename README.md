@@ -5,7 +5,7 @@
 ![Image of My Fitness](assets/images/myfitness-responsive.png)
 
 
-# **User Centric Frontend Development Milestone My Fitness Project:**
+# **User Centric Frontend Development Milestone "My Fitness" Project:**
 
 My Fitness is website designed to brand "my fitness gym" and attract new clients by presenting the services the gym provides with links on how to join the gym, classes schdeule and other users reviews, the website designed as one pages with navigation menu bar follows you while scrolling the website to provide you with the information you require easily. 
 the design is responsive and it will work on any deskttop laptops tablets and mobile devices.
@@ -26,7 +26,7 @@ the design is responsive and it will work on any deskttop laptops tablets and mo
 - Provide the users with responsive google map tool to navigate easily the surrounding area of the gym.
 
 ## **Wireframes**:
-The website was designed by Balsamiq tool, [link to wireframes!](wireframes/wireframes.pdf)
+The wireframes designed by Balsamiq tool, [link to wireframes!](wireframes/wireframes.pdf)
 
 # Features:
 ## Existing Features:
@@ -35,6 +35,7 @@ The website was designed by Balsamiq tool, [link to wireframes!](wireframes/wire
 - Sticky menu bar with the logo while surfing the whole page.
 - Join us botton in the middle of the main page that linked to a form.
 - The weekly classes schedule table with responsive design it can be scrolled horizontally when there is no enough space on the screen.
+- The links color in menu navegation bar change when hover or click.
 - Clickable logo that reload the page.
 - Reviews of happy users with a photo beside it.
 - Location of the gym on google maps, users can naviagte to check the gym location  or maybe drive to.
@@ -68,6 +69,7 @@ Google maps.
  - Click on home link to reload the page.
  - Click on classes link to the weekly classes timetable.
  - Click on find us link to the Find Us section.
+ - The links color changes when hover or clicked on t yellow.
  - Click on the button in the mobile version then will collapse and show the menu bar links.
  - The header and menu bar is sticky, will stay on the top while surfing the website.
  ## hero image
